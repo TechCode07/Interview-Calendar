@@ -49,9 +49,12 @@ const router = express.Router();
  *                 data:
  *                   type: object
  *                   properties:
- *                     username:
+ *                     email:
  *                       type: string
  *                       example: "john_doe"
+ *                     userId:
+ *                       type: string
+ *                       example: "9403f9230df02"
  *       400:
  *         description: Invalid input (e.g., missing or incorrect fields)
  *       500:
