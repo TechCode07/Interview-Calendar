@@ -29,7 +29,7 @@ docker run -p 5001:5001 --env-file .env my-node-app
 
 # Use Api's -
 
-1. You need to register twice as interviewer and candidate using user register api
+1. You need to register twice as interviewer and candidate using user register api (role - ["candidate", "interviewer"])
 2. With help of token provided in response if user login api's, add in security (top right section) of swagger documentation
 3. Create interveiew or candidate availability according to token added (candidate or interveiewer)
 4. Then run find slots api, which provide you the common available time of both the user types with entered userId's.
